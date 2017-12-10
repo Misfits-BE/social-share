@@ -2,13 +2,16 @@
 
 use Illuminate\Support\Facades\Facade;
 
-class ShareFacade extends Facade {
+class ShareFacade extends Facade
+{
 
-	/**
-	 * Get the registered name of the component.
-	 *
-	 * @return string
-	 */
-	protected static function getFacadeAccessor() { return 'share'; }
-
+    /**
+     * Get the registered name of the component.
+     *
+     * @return string
+     */
+    protected static function getFacadeAccessor()
+    {
+        return 'share';
+    }
 }

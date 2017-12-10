@@ -34,10 +34,16 @@
         "tests/TestCase.php"
     ]
   },
+  "scripts": {
+    "fix-cs-mac": [
+        "vendor/bin/php-cs-fixer fix"
+    ]
+  },
   "minimum-stability": "dev",
   "require-dev": {
     "orchestra/testbench": "~3.0",
     "mockery/mockery": "^0.9.4",
-    "guzzlehttp/guzzle": ">=5.3"
+    "guzzlehttp/guzzle": ">=5.3",
+    "friendsofphp/php-cs-fixer": "^2.9"
   }
 }
